@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: #94D9EA;
+}
+
+.section-left p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    color: #3f3838;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/*
+.section-left ul {
+    list-style: none;
+}
+
+.section-left li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("checkmark.png") no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+    
+}
+*/
+
+ul {
+    list-style-position: inside;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 60%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+section {
+    overflow: hidden;
+}
+
+.section-left{
+    color: white;
+    grid-column: span 2;
+    height: 100%;
+    background-color: #026d9f;
+}
+
+.section-left-container{
+    padding: 1rem 1.5rem;
+}
+
+.section-right{
+    grid-column: span 5
+    ;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.section-right h1 span, .section-right h2 span {
+    color: aqua;
+}
+
+
+.section-right ul {
+    list-style: none;
+}
+
+.content li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("checkmark.png") no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+    
+}
+
+.etudes-bold {
+    font-weight: bold;
+}
+
+.etudes-light {
+    color: #535151;
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contacts ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    min-height: 20%;
+    padding: 2rem 1.5rem;
+    background-color: rgba(226, 221, 215, 0.878);
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+.content {
+    padding: 2rem 1.5rem;
+}
+
+.content li {
+    font-size: 1.1rem;
+}
+
+.content p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
